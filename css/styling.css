@@ -1,0 +1,198 @@
+.title {
+	display: flex;
+	align-items: center;
+}
+
+.main {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.bottompics {
+	display: flex;
+	justify-content: space-between;
+	justify-content: flex-end;
+}
+
+.logo {
+	flex: 1;
+	margin-left: 5%;
+}
+
+.name {
+	flex: none;
+	margin-right: 5%;
+	justify-content: flex-end;
+}
+
+.pic {
+	flex-basis: 30%;
+}
+
+.logopic {
+	width: 30%;
+}
+
+.mainpic {
+	max-width: 50%;
+}
+
+.pic img {
+	max-width: 50%;
+	height: auto;
+}
+
+h1 {
+	font-size: 5vw;
+	font-weight: 100;
+}
+
+h2 {
+	font-size: 2vw;
+	color: grey;
+	font-weight: 100;
+}
+
+h3 {
+	font-size: 2vw;
+	font-weight: 600;
+}
+
+p {
+	font-size: 1.5vw;
+	font-weight: 100;
+}
+
+h2, h3, p {
+	margin-left: 5%;
+}
+
+span {
+	font-size: 2vw;
+	float: right;
+}
+
+body {
+	font-family: courier new;
+}
+
+@media screen and (max-width: 360px) {
+	
+	.title {
+		flex-direction: column;
+	}
+
+	.logo {
+		margin-left: 0;
+	}
+
+	.logopic {
+	width: 65px;
+	}
+
+	.mainpic {
+	max-width: 80%;
+	}
+
+	.name {
+	margin-right: 0;
+	}
+
+	span {
+		font-size: 3vw;
+	}
+
+	h1 {
+		font-weight: 600;
+	}
+
+	h2 {
+		margin-top: 40px;
+		margin-bottom: 0;
+		font-size: 1.5em;
+		margin-left: 0;
+	}
+
+	h3 {
+		font-size: 3vw;
+	}
+
+	a {
+		font-size: 3vw;
+	}
+
+	.bottompics {
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	}
+
+	.pic img {
+	max-width: 100px;
+	height: auto;
+	}
+
+}
+
+@media screen and (min-width: 361px) and (max-width: 768px) {
+
+	.title {
+		flex-direction: column;
+	}
+
+	.logo {
+		margin-left: 0;
+	}
+
+	.logopic {
+	width: 120px;
+	}
+
+	.mainpic {
+	max-width: 80%;
+	}
+
+	.name {
+	margin-right: 0;
+	}
+
+	span {
+		font-size: 3vw;
+	}
+
+	h1 {
+		font-weight: 600;
+	}
+
+	h2 {
+		margin-top: 80px;
+		margin-bottom: 0;
+		font-size: 1.5em;
+		margin-left: 0;
+	}
+
+	h3 {
+		font-size: 3vw;
+	}
+
+	a {
+		font-size: 3vw;
+	}
+
+	.bottompics {
+	flex-direction: row;
+	justify-content: center;
+	justify-content: space-around;
+	}
+
+	.pic img {
+	margin-top: 40px; 
+	max-width: 150px;
+	height: auto;
+	}
+
+}
+
+
+
